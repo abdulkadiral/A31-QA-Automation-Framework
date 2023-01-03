@@ -7,14 +7,14 @@ public class LoginTests extends BaseTest {
 
 
     @Test(enabled = true, priority = 0, description = "LoginEmptyEmailPasswordTest")
-    public static void LoginEmptyEmailPasswordTest () {
+    public static void LoginEmptyEmailPasswordTest() {
 
         navigateToPage();
         Assert.assertEquals(driver.getCurrentUrl(), url);
     }
 
     @Test(enabled = true, priority = 1, description = "LoginValidEmailValidPasswordTest")
-    public static void LoginValidEmailValidPasswordTest () throws InterruptedException {
+    public static void LoginValidEmailValidPasswordTest() throws InterruptedException {
 
         navigateToPage();
 
@@ -29,7 +29,7 @@ public class LoginTests extends BaseTest {
     }
 
     @Test(enabled = true, priority = 2, description = "LoginInvalidEmailValidPasswordTest")
-    public static void LoginInvalidEmailValidPasswordTest () {
+    public static void LoginInvalidEmailValidPasswordTest() {
 
         navigateToPage();
 
@@ -42,7 +42,7 @@ public class LoginTests extends BaseTest {
     }
 
     @Test(enabled = true, priority = 3, description = "LoginValidEmailValidPasswordTest")
-    public static void updateProfileNameTest () throws InterruptedException {
+    public static void updateProfileNameTest() throws InterruptedException {
 
         navigateToPage();
 
@@ -63,7 +63,6 @@ public class LoginTests extends BaseTest {
         WebElement actualProfileName = driver.findElement(By.cssSelector("a.view-profile>span"));
         Assert.assertEquals(actualProfileName.getText(), randomName);
 
+
     }
-
-
 }
