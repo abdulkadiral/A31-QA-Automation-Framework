@@ -30,8 +30,9 @@ public class LoginTests extends BaseTest {
 
     }
 
-    @Test(enabled = true, priority = 2, description = "LoginInvalidEmailValidPasswordTest")
-    public static void loginInvalidEmailValidPasswordTest () {
+    @Test(enabled = true, description = "LoginInvalidEmailValidPasswordTest")
+    public  void loginInvalidEmailValidPasswordTest () {
+
 
         provideEmail("invalid@class.com");
         providePassword("te$t$tudent");
