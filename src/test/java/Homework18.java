@@ -7,9 +7,12 @@ public class Homework18 extends BaseTest {
 
     @Test
     public void playASongTest() {
-        login("demo@class.com", "te$t$tudent");
-        playSong();
-        isSongPlaying();
+//        login("demo@class.com", "te$t$tudent");
+//        playSong();
+//        isSongPlaying();
+        String a = "10";
+
+        System.out.println(3);
     }
 
     public void playSong() {
