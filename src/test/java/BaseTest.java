@@ -36,8 +36,8 @@ public class BaseTest {
 
 
 //    @BeforeSuite
-//    public void setupClass() {
-////        WebDriverManager.firefoxdriver().setup();
+//    public void set() {
+//      WebDriverManager.chromedriver().setup();
 //    }
 
 //    @BeforeMethod
